@@ -39,6 +39,13 @@ input.onGesture(Gesture.Shake, function () {
     radio.sendNumber(0)
 })
 radio.setGroup(1)
+basic.showLeds(`
+    . . # . .
+    . # . # .
+    # . # . #
+    . # . # .
+    . . # . .
+    `)
 basic.forever(function () {
 	
 })
