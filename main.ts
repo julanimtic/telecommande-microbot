@@ -39,6 +39,7 @@ input.onGesture(Gesture.Shake, function () {
     radio.sendNumber(0)
 })
 radio.setGroup(1)
+radio.setTransmitPower(7)
 basic.showLeds(`
     . . # . .
     . # . # .
@@ -46,6 +47,3 @@ basic.showLeds(`
     . # . # .
     . . # . .
     `)
-basic.forever(function () {
-	
-})
